@@ -117,9 +117,11 @@ const ProjectCard = ({
       </p>
       <a 
         href={link} 
-        className="inline-flex items-center gap-2 text-white text-sm font-bold group/link"
-      >
-        View Case Study 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 text-brand-cyan text-sm font-bold hover:underline"
+>
+  View Code → 
         <ExternalLink size={14} className="text-brand-blue transition-transform group-hover/link:translate-x-1" />
       </a>
     </div>
@@ -336,23 +338,16 @@ export default function App() {
   description="Developed an AI-powered conversational agent that converts user interactions into qualified leads for SaaS platforms. Implemented intent detection and a RAG pipeline using FAISS."
   image="/images/autostream.jpg"
   tags={['Python', 'FastAPI', 'FAISS', 'RAG']}
-  link="#"
+  link="https://github.com/manishgupta-tech/autostream-ai-agent"
 />
 
-<ProjectCard 
-  title="AI Assistant with RAG"
-  description="Built an intelligent assistant using LangChain to answer queries using document-based retrieval. Designed for scalability and efficient information access."
-  image="/images/rag.jpg"
-  tags={['Python', 'LangChain', 'FastAPI']}
-  link="#"
-/>
 
 <ProjectCard 
   title="AI Drone Simulation System"
   description="Developed a drone simulation system using AirSim for autonomous navigation and testing in virtual environments. Improved simulation accuracy."
   image="/images/drone.jpg"
   tags={['Python', 'AirSim', 'Robotics']}
-  link="#"
+  link="https://github.com/manishgupta-tech/AI-Drone-Simulator"
 />
 
 <ProjectCard 
@@ -360,7 +355,15 @@ export default function App() {
   description="Django REST API to process truck stop data from CSV files and provide analytical endpoints including city/state filtering and lowest price retrieval."
   image="/images/fuel.jpg"
   tags={['Django', 'DRF', 'Pandas', 'SQLite']}
-  link="#"
+  link="https://github.com/manishgupta-tech/fuel-price-api-"
+/>
+
+<ProjectCard 
+  title="AI Assistant with RAG"
+  description="Built an intelligent assistant using LangChain to answer queries using document-based retrieval. Designed for scalability and efficient information access."
+  image="/images/rag.jpg"
+  tags={['Python', 'LangChain', 'FastAPI']}
+  link="https://github.com/manishgupta-tech/langchain-chatbot"
 />
             </div>
             
