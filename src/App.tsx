@@ -417,34 +417,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* --- Github Stats --- */}
-        <section className="py-32 px-6 md:px-10 border-t border-white/[0.03]">
-          <div className="max-w-7xl mx-auto text-center">
-            <SectionHeading subtitle="Activity">Github Contribution</SectionHeading>
-            <div className="glass-card p-4 md:p-10 border-white/5 inline-block mx-auto max-w-full overflow-hidden">
-               <img 
-                src="https://github-readme-stats.vercel.app/api?username=manishgupta-tech&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" 
-                alt="Manish GitHub Stats" 
-                className="max-w-full h-auto rounded-xl"
-                referrerPolicy="no-referrer"
-              />
-            </div>
-            <div className="mt-8 flex justify-center gap-4 flex-wrap">
-               <img 
-                src="https://github-readme-stats.vercel.app/api/top-langs/?username=manishgupta-tech&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" 
-                alt="Top Languages" 
-                className="h-auto md:h-48 rounded-xl"
-                referrerPolicy="no-referrer"
-              />
-              <img 
-                src="https://github-readme-streak-stats.herokuapp.com/?user=manishgupta-tech&theme=tokyonight&hide_border=true&background=0D1117" 
-                alt="GitHub Streak" 
-                className="h-auto md:h-48 rounded-xl"
-                referrerPolicy="no-referrer"
-              />
-            </div>
-          </div>
-        </section>
 
         {/* --- Contact Section --- */}
         <section id="contact" className="py-32 px-6 md:px-10 border-t border-white/[0.03]">
